@@ -990,7 +990,7 @@ background-color: yellow;
 
 
 
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 300px) {
 .paraa{
     font-size: 1.7vw;
 }
