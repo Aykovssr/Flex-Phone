@@ -39,7 +39,7 @@ body {
     width:30%;
     height:100%;  
     border-radius: 5% 5% 5% 5% / 5% 5% 5% 5%;  
-    border-bottom : 5px solid #6C63FF;  
+    border-bottom : 5px solid #6b63ffcc;  
     margin-top: 5%;
 }
 .iphone{
@@ -84,14 +84,14 @@ body {
     margin-top: 5%;
 }
 .testiii{
-    border : 10px dotted #6C63FF;
+    border : 10px dotted #6b63ff88;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
     height: 98%;
     border-radius: 30px ; 
-    border-top: 10px dotted yellow;
-    border-left: 10px dotted yellow;
+    border-top: 10px dotted rgba(255, 255, 0, 0.377);
+    border-left: 10px dotted rgba(255, 255, 0, 0.308);
 }
 .carreiii{
     width: 90%;
@@ -109,6 +109,7 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     color: white;
+    font-size: 1.1vw;
 }
 .photo{
     position: absolute;
@@ -118,8 +119,8 @@ body {
     grid-gap: 10px;
     width: 50%;
     height: 300px;
-    margin-left: 500px;
-    margin-top: 500px;
+    margin-left: 50%;
+    margin-top: 51%;
     border: 5px solid #6C63FF;
     border-right: 10px white;
     border-radius: 10px;
@@ -485,10 +486,7 @@ background-color: yellow;
 }
 .rdvpara{
     font-family: 'Alkatra', cursive;
-    font-size: 1vw;
-    height: 95%;
-    width: 100%;
-    
+    font-size: 1vw; 
 }
 .roundbox3{
     width : 100%;
@@ -611,6 +609,8 @@ background-color: yellow;
 .coursb{
     width: 100%;
     height: 50%;
+    font-size: 1vw;
+    margin-bottom: 2%;
 }
 .coursbb{
     width: 90%;
@@ -855,7 +855,7 @@ background-color: yellow;
  #slide2:checked ~ #controls label:nth-child(3),
  #slide3:checked ~ #controls label:nth-child(4),
  #slide4:checked ~ #controls label:nth-child(1) {
-    background: url(image/box.png) no-repeat;
+    background: url(image/flc.png) no-repeat;
     background-size: cover;
     float:right;
     margin: 0 -50px 0 0;
@@ -865,7 +865,8 @@ background-color: yellow;
  #slide2:checked ~ #controls label:nth-last-child(3),
  #slide3:checked ~ #controls label:nth-last-child(4),
  #slide4:checked ~ #controls label:nth-last-child(1) {
-    background: url(image/box.png) no-repeat;
+    background: url(image/flc.png) no-repeat ;
+    transform: scaleX(-1);
     background-size: cover;
     float:left;
     margin: 0 0 0 -50px;
@@ -989,8 +990,16 @@ background-color: yellow;
 
 
 
- @media screen and (max-width: 700px) {
-   
+ @media screen and (max-width: 900px) {
+.paraa{
+    font-size: 1.7vw;
+}
+.photo{
+    margin-top: 100%;
+}
+.formulei{
+    margin-top: 50px;
+}
 .containerc{
     flex-direction: column;
     height: 1000px;
@@ -1004,7 +1013,6 @@ background-color: yellow;
     height: 50%;
     margin-right: 0%;
 }
-
   .containerd{
     flex-direction: column;
     height: 1000px;
@@ -1022,7 +1030,9 @@ background-color: yellow;
     margin-right: 5%;
     width : 90%;
   }
-
+  .servicepara{
+    font-size: 2vw;
+}
   .containerf{
     flex-direction: column;
     height: 1000px;
@@ -1037,7 +1047,7 @@ background-color: yellow;
   }
   .map{
     position: relative;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -1049,7 +1059,9 @@ background-color: yellow;
     width : 90%;
     flex-direction: column;
   }
-
+  .rdvpara{
+    font-size: 2vw;
+}
   .containerg{
     flex-direction: column;
     height: 1000px;
@@ -1067,8 +1079,21 @@ background-color: yellow;
     margin-right: 5%;
     width : 90%;
   }
+  .pararepa{
+    font-size: 2vw;
+  }
   .tutoaimg{
     margin-top: 10px;
     height: 100%;
+  }
+  .coursb{
+    font-size: 1.35vw;
+  }
+  .moipara{
+    font-size: 1.3vw;
+    margin-top: -0.1vw;
+  }
+  .paraappl{
+    font-size: 1.5vw;
   }
   }
